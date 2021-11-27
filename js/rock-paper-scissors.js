@@ -77,23 +77,3 @@ buttons.forEach((button) => {
         }
     })
 })
-
-/*
-function game() {
-    let playerWins = 0;
-    let computerWins = 0;
-    for (let i = 1; i <= 5; i++) {
-        console.log("Game number: " + i);
-        let result = playRound(prompt("Rock, Paper or Scissors?"), computerPlay());
-        if (result.slice(0, 5) == "You W") {
-            playerWins++;
-        } else if (result.slice(0,5) == "You L") {
-            computerWins++;
-        }
-        console.log(result);
-    }
-    return (playerWins > computerWins) ? "Player wins!" :
-        (playerWins < computerWins) ? "Computer wins!" : "Tie"
-}
-console.log(game());
-*/
